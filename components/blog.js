@@ -63,14 +63,14 @@ const CardContainer = () => {
         </div>
         <div className="flex flex-wrap -mx-4">
           <div data-aos="fade-right" className="text-black  w-full md:w-1/3 p-4">
-            <a href='#'><Card
+            <a href='https://www.amanmithaiwala.com/'><Card
               imageSrc="/logo.png"
               title={"Aman Mithaiwala"}
               description=""
             /></a>
           </div>
           <div data-aos="fade-up" className="text-black h-full w-full md:w-1/3 p-4">
-            <a href='#'><Card
+            <a href='https://myportfolio-2-alsomedroos-projects.vercel.app/'><Card
               imageSrc="/port.png"
               title={"Portfolio"}
               description=""

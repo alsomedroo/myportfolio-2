@@ -51,21 +51,21 @@ const CardContainer = () => {
         </div>
         <div className="flex flex-wrap -mx-4">
           <div data-aos="fade-right" className=" w-full md:w-1/3 p-4">
-            <a href='#'><Card
+            <a href='https://www.instagram.com/alsomedroo/'><Card
               imageSrc="/css.jpg"
               title="CSS"
               
             /></a>
           </div>
           <div data-aos="fade-up" className="w-full md:w-1/3 p-4">
-          <a href='#'><Card
+          <a href='https://www.youtube.com/watch?v=o5AE0NSJLiM&list=PLhTjXPu5PwCNS03kyYK91kR37QBDdZfQS&pp=iAQB'><Card
               imageSrc="/dbms.jpg"
               title="DBMS"
               
             /></a>
           </div>
           <div data-aos="fade-left" className="w-full md:w-1/3 p-4">
-          <a href='#'><Card
+          <a href='https://www.instagram.com/alsomedroo/'><Card
               imageSrc="/js.jpg"
               title="Javascript"
               

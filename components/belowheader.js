@@ -21,7 +21,7 @@ const Card = ({ imageSrc, title, description }) => {
 
 const AnimatedText = () => {
   return (
-    <div className="max-w-6xl w-full items-center justify-between font-mono text-sm lg:flex mt-4 relative z-40">
+    <div className="max-w-6xl w-full items-center justify-between font-mono text-sm md:flex mt-4 relative z-40">
       {/* <div className="w-2/3 h-full">
       <div data-aos="fade-right" className=" w-full hidden md:border-b md:rounded-xl flex-col md:block lg:w-2/3 lg:mr-4 md:text-teal-800">
         <h1 className="typewriter md:bubble-text flex md:text-2xl text-white justify-center md:dark:border-neutral-800 md:dark:bg-zinc-800/30 md:dark:from-inherit lg:static rounded-xl w-full">
@@ -91,7 +91,7 @@ const AnimatedText = () => {
             <Card
               imageSrc="/images/image1.jpg"
               title={"Myself | Academics"}
-              description="I'm Dhruv Jain, a driven Developer with a fervor for innovation and technology. I code , I teach. I've embarked on an exhilarating journey through the dynamic realms of web development and data structures & algorithms (DSA). I'm currently persuing B.tech from K.I.E.T (Ghaziabad). Frontend is my love, DSA is my wife (End of the day, its the most important thing). I aspire to leave an indelible mark on the digital world, one pixel at a time."
+              description="I'm Dhruv Jain, a driven Developer with a fervor for innovation and technology.  I code , I teach on Youtube and Instagram. I've embarked on an exhilarating journey through the dynamic realms of web development and data structures & algorithms (DSA). I'm currently persuing B.tech from K.I.E.T (Ghaziabad). Frontend is my love, DSA is my wife (End of the day, its the most important thing). I aspire to leave an indelible mark on the digital world, one pixel at a time."
               
             />
           </div>
@@ -102,8 +102,8 @@ const AnimatedText = () => {
           alt="Profile Picture"
           className="rounded-full shadow-sky-400 shadow-lg border border-x-2 border-y-2 border-teal-300 box-shadow h-44 w-44 lg:h-32 lg:w-72 lg:h-72 object-cover transition-transform transform hover:shadow-sky-400 hover:scale-110 hover:shadow-xl ease-out duration-300"
         />
-        <h1 className="text-2xl md:text-5xl my-10">Dhruv Jain</h1>
-        <p className="md:text-xl">CS Grad</p>
+        <h1 className="text-2xl lg:text-5xl my-10">Dhruv Jain</h1>
+        <p className="lg:text-xl">CS Grad</p>
         <p className="flex flex-row">Founder -&nbsp;<a href="https://www.instagram.com/web.landers/" className="text-teal-300">Weblanders</a></p>
         
         <p>Frontend Developer</p>

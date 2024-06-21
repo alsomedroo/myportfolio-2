@@ -91,7 +91,7 @@ const Card = ({ imageSrc, title, description }) => {
               <Card
                 imageSrc="/images/image1.jpg"
                 title={"Myself | Academics"}
-                description="I'm Dhruv Jain, a driven Developer with a fervor for innovation and technology. I code , I teach. I've embarked on an exhilarating journey through the dynamic realms of web development and data structures & algorithms (DSA). I'm currently persuing B.tech from K.I.E.T (Ghaziabad). Frontend is my love, DSA is my wife (End of the day, its the most important thing). I aspire to leave an indelible mark on the digital world, one pixel at a time. "
+                description="I'm Dhruv Jain, a driven Developer with a fervor for innovation and technology. I code , I teach on Youtube and Instagram. I've embarked on an exhilarating journey through the dynamic realms of web development and data structures & algorithms (DSA). I'm currently persuing B.tech from K.I.E.T (Ghaziabad). Frontend is my love, DSA is my wife (End of the day, its the most important thing). I aspire to leave an indelible mark on the digital world, one pixel at a time. "
                 
               />
             </div>

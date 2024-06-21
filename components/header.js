@@ -93,7 +93,7 @@ const Header = () => {
           <a href="#Couses" className="text-white hover:text-teal-300 transition duration-300">
             Courses
           </a>
-          <span className="flex space-x-4">
+          <h1 className="flex space-x-4">
             <a href="https://www.instagram.com/alsomedroo/" className="text-white hover:text-teal-300">
               <Image src="/insta.png" alt="Instagram" width={24} height={24} className="w-6 h-6" />
             </a>
@@ -103,7 +103,10 @@ const Header = () => {
             <a href="https://www.linkedin.com/in/dhruv-jain-79617a305/" className="text-white hover:text-teal-300">
               <Image src="/linkedinn.png" alt="LinkedIn" width={24} height={24} className="w-6 h-6 rounded-full" />
             </a>
-          </span>
+            <a href="https://www.youtube.com/@alsomedroo" className="text-white hover:text-teal-300">
+              <Image src="/youtubw.png" alt="Youtube" width={24} height={24} className="w-6 h-6 rounded-full" />
+            </a>
+          </h1>
         </div>
       </div>
     </header>
