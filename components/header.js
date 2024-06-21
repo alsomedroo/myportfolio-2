@@ -32,7 +32,7 @@ const Header = () => {
 };
 
   return (
-    <header className={`w-full  shadow-sky-400 md:shadow-transparent shadow-lg loader-container flex flex-row justify-between py-4 px-6 relative bg-black z-50 $${showNav ? 'translate-y-0' : '-translate-y-full'}`}>
+    <header className={`w-full shadow-sky-400 md:shadow-transparent shadow-lg loader-container flex flex-row justify-between py-4 px-6 relative bg-black z-50 $${showNav ? 'translate-y-0' : '-translate-y-full'}`}>
       <div className="loader  flex flex-row">
         <span className="text-3xl text-white font-arial md:text-5xl md:mx-3 xs:text-xl">P</span>
         <span className="text-3xl text-white font-arial md:text-5xl md:mx-3 xs:text-xl">o</span>
@@ -49,20 +49,20 @@ const Header = () => {
         <a href="#" className="text-white hover:text-teal-300 transition duration-300">
           Home
         </a>
-        <a href="#" className="text-white hover:text-teal-300 transition duration-300">
+        <a href="#Projects" className="text-white hover:text-teal-300 transition duration-300">
+          Projects
+        </a>
+        <a href="#Courses" className="text-white hover:text-teal-300 transition duration-300">
           Courses
         </a>
-        <a href="#" className="text-white hover:text-teal-300 transition duration-300">
-          Blogs
-        </a>
         <span>|</span>
-        <a href="#" className="text-white hover:text-teal-300">
+        <a href="https://www.instagram.com/alsomedroo/" className="text-white hover:text-teal-300">
           <Image src="/insta.png" alt="Instagram" width={24} height={24} className="w-6 h-6" />
         </a>
-        <a href="#" className="text-white hover:text-teal-300 ">
+        <a href="https://github.com/alsomedroo" className="text-white hover:text-teal-300 ">
           <Image src="/githubbb.png" alt="GitHub" width={24} height={24} className="w-6 h-6" />
         </a>
-        <a href="#" className="text-white hover:text-teal-300">
+        <a href="https://www.linkedin.com/in/dhruv-jain-79617a305/" className="text-white hover:text-teal-300">
           <Image src="/linkedinn.png" alt="LinkedIn" width={24} height={24} className="w-6 h-6 rounded-full" />
         </a>
       </nav>
@@ -87,20 +87,20 @@ const Header = () => {
           <a href="#" className="text-white hover:text-teal-300 transition duration-300">
             Home
           </a>
-          <a href="#" className="text-white hover:text-teal-300 transition duration-300">
+          <a href="#Projects" className="text-white hover:text-teal-300 transition duration-300">
+            Projects
+          </a>
+          <a href="#Couses" className="text-white hover:text-teal-300 transition duration-300">
             Courses
           </a>
-          <a href="#" className="text-white hover:text-teal-300 transition duration-300">
-            Blogs
-          </a>
           <span className="flex space-x-4">
-            <a href="#" className="text-white hover:text-teal-300">
+            <a href="https://www.instagram.com/alsomedroo/" className="text-white hover:text-teal-300">
               <Image src="/insta.png" alt="Instagram" width={24} height={24} className="w-6 h-6" />
             </a>
-            <a href="#" className="text-white hover:text-teal-300">
+            <a href="https://github.com/alsomedroo" className="text-white hover:text-teal-300">
               <Image src="/githubbb.png" alt="GitHub" width={24} height={24} className="w-6 h-6" />
             </a>
-            <a href="#" className="text-white hover:text-teal-300">
+            <a href="https://www.linkedin.com/in/dhruv-jain-79617a305/" className="text-white hover:text-teal-300">
               <Image src="/linkedinn.png" alt="LinkedIn" width={24} height={24} className="w-6 h-6 rounded-full" />
             </a>
           </span>

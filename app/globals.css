@@ -8,7 +8,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+html, body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -135,6 +135,30 @@ span {
 .bubble-text .split-char:hover {
   font-weight: var(--_fw-900);
   color: var(--_clr-900);
+}
+
+.logos {
+	background-color: var(--base-100);
+	border-radius:30px;
+	padding:30px 0px;
+	@media (max-width:1440px){
+		border-radius:0px;
+	}
+	.marquee {
+		width:100vw;
+		max-width:100%;
+		height:128px;
+		overflow:hidden;
+		position:relative;
+		.track {
+			position:absolute;
+			white-space:nowrap;
+			will-change:transform;
+			animation: marquee 40s linear infinite;
+			display:flex;
+			gap:10px;
+		}
+	}
 }
 
 /* Tailwind Custom Utilities */

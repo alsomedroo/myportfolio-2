@@ -25,7 +25,7 @@ const Card = ({ imageSrc, title, description }) => {
             <Card
               imageSrc="/images/image1.jpg"
               title={"Myself | Academics"}
-              description="I'm Dhruv Jain, a driven Developer with a fervor for innovation and technology, I've embarked on an exhilarating journey through the dynamic realms of web development and data structures & algorithms (DSA). My academic pursuits have honed my analytical prowess, enabling me to craft seamless digital experiences and solve complex problems with elegant solutions. My passion for coding transcends mere academics, intertwining with a vision to redefine digital landscapes through creativity and technical finesse. "
+              description="I'm Dhruv Jain, a driven Developer with a fervor for innovation and technology. I code , I teach. I've embarked on an exhilarating journey through the dynamic realms of web development and data structures & algorithms (DSA). I'm currently persuing B.tech from K.I.E.T (Ghaziabad). Frontend is my love, DSA is my wife (End of the day, its the most important thing). I aspire to leave an indelible mark on the digital world, one pixel at a time. "
               
             />
           </div>
@@ -33,7 +33,7 @@ const Card = ({ imageSrc, title, description }) => {
             <Card
               imageSrc="/images/image1.jpg"
               title={"Entrepreneurial Venture"}
-              description="This vision materialized into Weblanders, a digital freelancing agency with the aim of merging artistry with technology. At Weblanders, we are not just creating websites; we are designing digital masterpieces that resonate with contemporary aesthetics and functionality. Our team of adept professionals brings diverse expertise to the table, ensuring that every client’s vision is not only realized but elevated beyond expectations. Through Weblanders, I aspire to leave an indelible mark on the digital world, one pixel at a time."
+              description="It starts from the childhood when I used to see my father as my role model for my Entrepreneurial Journey, and it seems to be completed when I with my childhood friend founded a digital freelancing agency with the aim of merging artistry with technology. At Weblanders, we are not just creating websites; we are designing digital masterpieces that resonate with contemporary aesthetics and functionality."
             />
           </div> 
 

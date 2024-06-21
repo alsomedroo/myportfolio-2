@@ -8,7 +8,7 @@ const Card = ({ imageSrc, title, description }) => {
           src={imageSrc}
           alt={title}
           layout="fill"
-          objectFit="cover"
+          content="fir"
           className="rounded-t-lg"
         />
       </div>
@@ -23,6 +23,8 @@ const Card = ({ imageSrc, title, description }) => {
 const CardContainer = () => {
   return (
     <div className="bg-transparent my-20 rounded-2xl shadow-sky-400 shadow-lg py-8 w-full">
+       <section id="Courses">
+       </section>
       <div className=" mx-auto px-4">
         <div className='items-center justify-center flex loader'>
         <span data-aos="fade-down" className="loader md:text-5xl text-sm font-arial tracking-wider text-white text-center mb-8">
@@ -50,21 +52,21 @@ const CardContainer = () => {
         <div className="flex flex-wrap -mx-4">
           <div data-aos="fade-right" className=" w-full md:w-1/3 p-4">
             <a href='#'><Card
-              imageSrc="/doodle2.jpg"
+              imageSrc="/css.jpg"
               title="CSS"
               
             /></a>
           </div>
           <div data-aos="fade-up" className="w-full md:w-1/3 p-4">
           <a href='#'><Card
-              imageSrc="/doodle3.png"
+              imageSrc="/dbms.jpg"
               title="DBMS"
               
             /></a>
           </div>
           <div data-aos="fade-left" className="w-full md:w-1/3 p-4">
           <a href='#'><Card
-              imageSrc="/doodle2.jpg"
+              imageSrc="/js.jpg"
               title="Javascript"
               
             /></a>
