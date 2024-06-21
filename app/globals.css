@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-start-rgb))
+    )
+    rgb(var(--background-end-rgb));
+}
+
+/* Responsive Styles for Header */
+@media (max-width: 768px) {
+  header {
+    padding: 1rem;
+  }
+  header nav {
+    padding: 1rem;
+  }
+  header nav a {
+    font-size: 1.2rem;
+  }
+}
+
+/* Blur Effect */
+span {
+  animation: blur 4s infinite;
+  margin: 0.4rem;
+}
+.loader-container {
+  position: relative;
+}
+.loader {
+  color: white;
+}
+@keyframes blur {
+  0% { filter: blur(0); }
+  25% { filter: blur(1px); }
+  50% { filter: blur(5px); }
+  75% { filter: blur(1px); }
+  100% { filter: blur(0); }
+}
+.loader span:nth-child(1) { animation-delay: 0s; }
+.loader span:nth-child(2) { animation-delay: 0.4s; }
+.loader span:nth-child(3) { animation-delay: 0.8s; }
+.loader span:nth-child(4) { animation-delay: 1s; }
+.loader span:nth-child(5) { animation-delay: 1.4s; }
+.loader span:nth-child(6) { animation-delay: 1.8s; }
+.loader span:nth-child(7) { animation-delay: 2s; }
+.loader span:nth-child(8) { animation-delay: 2.4s; }
+.loader span:nth-child(9) { animation-delay: 2.8s; }
+
+/* Blinking Cursor Effect */
+.blinking-cursor {
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+@keyframes blink {
+  from, to { color: transparent; }
+  50% { color: teal; }
+}
+
+/* Typewriter Effect */
+.typewriter h1 {
+  font-family: monospace;
+  overflow: hidden;
+  border-right: .15em solid white;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: white; }
+}
+
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 15;
+    --background-end-rgb: 0, 0, 0;
+    --start: 100, 23, 112;
+    --end: 0, 0, 50;
+    --red-end: 0, 0, 0;
+    --red-start: 20, 0, 0;
+  }
+}
+
+.dark-card {
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgb(var(--end))
+  ) rgb(var(--start));
+}
+.red-card {
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgb(var(--red-end))
+  ) rgb(var(--red-start));
+}
+
+/* Bubble Text */
+.bubble-text {
+  font-size: clamp(2rem, calc(2rem + 3.5vw), 8rem);
+  color: hsl(0, 0%, 50%);
+  user-select: none;
+}
+.bubble-text .split-char {
+  font-weight: 200;
+  transition: font-weight 0.5s ease;
+}
+.bubble-text .split-char:hover {
+  font-weight: var(--_fw-900);
+  color: var(--_clr-900);
+}
+
+/* Tailwind Custom Utilities */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .animate-zoom {
+    animation: zoom 0.3s ease-out;
+  }
+  .bgimage {
+    background: url("/public/doodle.jpeg");
+    background-size: cover;
+  }
+  .paused {
+    animation-play-state: paused;
+  }
+  .c-size {
+    height: 460px;
+  }
+  .w-size {
+    width: 560px;
+  }
+  .no-scroll {
+    overflow: hidden;
+  }
+  @keyframes zoom {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  .jakarta {
+    font-family: var(--font-montserrat);
+  }
+  .playfair_display {
+    font-family: var(--font-playfair_display);
+  }
+}
