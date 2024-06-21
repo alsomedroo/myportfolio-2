@@ -36,28 +36,28 @@ const CardContainer = () => {
         <span className="hidden md:block loader md:text-5xl text-lg font-arial tracking-wider text-teal-400 text-center mb-8">
         &nbsp;
         </span>
-        <span className="loader md:text-5xl text-sm font-arial tracking-wider text-teal-400 text-center mb-8">
+        <span className="loader md:text-5xl text-2xl font-arial tracking-wider text-teal-400 text-center mb-8">
           P
         </span>
-        <span className="loader md:text-5xl text-sm font-arial tracking-wider text-teal-400 text-center mb-8">
+        <span className="loader md:text-5xl text-2xl font-arial tracking-wider text-teal-400 text-center mb-8">
           r
         </span>
-        <span className="loader md:text-5xl text-sm font-arial tracking-wider text-teal-400 text-center mb-8">
+        <span className="loader md:text-5xl text-2xl font-arial tracking-wider text-teal-400 text-center mb-8">
           o
         </span>
-        <span className="loader md:text-5xl text-sm font-arial tracking-wider text-teal-400 text-center mb-8">
+        <span className="loader md:text-5xl text-2xl font-arial tracking-wider text-teal-400 text-center mb-8">
           j
         </span>
-        <span className="loader md:text-5xl text-sm font-arial tracking-wider text-teal-400 text-center mb-8">
+        <span className="loader md:text-5xl text-2xl font-arial tracking-wider text-teal-400 text-center mb-8">
           e
         </span>
-        <span className="loader md:text-5xl text-sm font-arial tracking-wider text-teal-400 text-center mb-8">
+        <span className="loader md:text-5xl text-2xl font-arial tracking-wider text-teal-400 text-center mb-8">
           c
         </span>
-        <span className="loader md:text-5xl text-sm font-arial tracking-wider text-teal-400 text-center mb-8">
+        <span className="loader md:text-5xl text-2xl font-arial tracking-wider text-teal-400 text-center mb-8">
           t
         </span>
-        <span className="loader md:text-5xl text-sm font-arial tracking-wider text-teal-400 text-center mb-8">
+        <span className="loader md:text-5xl text-2xl font-arial tracking-wider text-teal-400 text-center mb-8">
           s
         </span>
         </div>

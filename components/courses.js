@@ -27,25 +27,25 @@ const CardContainer = () => {
        </section>
       <div className=" mx-auto px-4">
         <div className='items-center justify-center flex loader'>
-        <span data-aos="fade-down" className="loader md:text-5xl text-sm font-arial tracking-wider text-white text-center mb-8">
+        <span data-aos="fade-down" className="loader md:text-5xl text-2xl font-arial tracking-wider text-white text-center mb-8">
           C
         </span>
-        <span data-aos="fade-down" className="loader md:text-5xl text-sm font-arial tracking-wider text-white text-center mb-8">
+        <span data-aos="fade-down" className="loader md:text-5xl text-2xl font-arial tracking-wider text-white text-center mb-8">
           o
         </span>
-        <span data-aos="fade-down" className="loader md:text-5xl text-sm font-arial tracking-wider text-white text-center mb-8">
+        <span data-aos="fade-down" className="loader md:text-5xl text-2xl font-arial tracking-wider text-white text-center mb-8">
           u
         </span>
-        <span data-aos="fade-down" className="loader md:text-5xl text-sm font-arial tracking-wider text-white text-center mb-8">
+        <span data-aos="fade-down" className="loader md:text-5xl text-2xl font-arial tracking-wider text-white text-center mb-8">
           r
         </span>
-        <span data-aos="fade-down" className="loader md:text-5xl text-sm font-arial tracking-wider text-white text-center mb-8">
+        <span data-aos="fade-down" className="loader md:text-5xl text-2xl font-arial tracking-wider text-white text-center mb-8">
           s
         </span>
-        <span data-aos="fade-down" className="loader md:text-5xl text-sm font-arial tracking-wider text-white text-center mb-8">
+        <span data-aos="fade-down" className="loader md:text-5xl text-2xl font-arial tracking-wider text-white text-center mb-8">
           e
         </span>
-        <span data-aos="fade-down" className="loader md:text-5xl text-sm font-arial tracking-wider text-white text-center mb-8">
+        <span data-aos="fade-down" className="loader md:text-5xl text-2xl font-arial tracking-wider text-white text-center mb-8">
           s
         </span>
         </div>
