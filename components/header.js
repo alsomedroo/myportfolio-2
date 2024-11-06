@@ -1,7 +1,19 @@
 "use client"
-
+import Projects from "@/components/blog"
 import Image from 'next/image';
-import { useState, useEffect } from "react";
+import { useState, useEffect , Routes, Route, BrowserRouter} from "react";
+
+const Card = ({ imageSrc, title, description }) => {
+  return (
+    <div className="bg-transparent rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-110 hover:shadow-xl ease-out duration-300">
+      <div className="md:p-6 p-0">
+        <h2 className="text-xl text-teal-400 font-bold mb-2">{title}</h2>
+        <p className="text-white">{description} <p className="blinking-cursor text-teal-200">|</p></p>
+        
+      </div>
+    </div>
+  );
+};
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,7 +44,8 @@ const Header = () => {
 };
 
   return (
-    <header className={`w-full shadow-sky-400 md:shadow-transparent shadow-lg loader-container flex flex-row justify-between py-4 px-6 relative bg-black z-50 $${showNav ? 'translate-y-0' : '-translate-y-full'}`}>
+    <header >
+      <div className={`w-full shadow-sky-400 md:shadow-transparent shadow-lg loader-container flex flex-row justify-between py-4 px-6 relative bg-black z-50 $${showNav ? 'translate-y-0' : '-translate-y-full'}`}>
       <div className="loader  flex flex-row">
         <span className="text-3xl text-white font-arial md:text-5xl md:mx-3 xs:text-xl">P</span>
         <span className="text-3xl text-white font-arial md:text-5xl md:mx-3 xs:text-xl">o</span>
@@ -112,6 +125,50 @@ const Header = () => {
           </h1>
         </div>
       </div>
+      </div>
+
+      
+
+
+      <div className="flex h-screen transform scale-110 justify-center items-center">
+      <div className="max-w-6xl w-full items-center justify-between font-mono text-sm md:flex mt-4 relative z-40">
+      
+          <div data-aos="fade-right" className="hidden md:block shadow-sky-400 shadow-lg text-black w-full md:w-1/3 p-4">
+            <Card
+              imageSrc="/images/image1.jpg"
+              title={"Myself | Academics"}
+              description="I'm Dhruv Jain, a driven Developer with a fervor for innovation and technology.  I code , I teach on Youtube and make content on Instagram. I've embarked on an exhilarating journey through the dynamic realms of web development and DSA. I'm currently persuing B.tech from K.I.E.T (Ghaziabad). MERN is my love, DSA is my wife (End of the day, its the most important thing). Moving forward towards Blockchain. One pixel at a time."
+              
+            />
+          </div>
+
+      <div data-aos="fade-down" className="md:w-1/3 flex justify-center flex-col items-center mt-4 lg:mt-0">
+        <img 
+          src="/profilepic.jpg"
+          alt="Profile Picture"
+          className="rounded-full shadow-sky-400 shadow-lg border border-x-2 border-y-2 border-teal-300 box-shadow h-44 w-44 lg:h-32 lg:w-72 lg:h-72 object-cover transition-transform transform hover:shadow-sky-400 hover:scale-110 hover:shadow-xl ease-out duration-300"
+        />
+        <h1 className="text-2xl lg:text-5xl my-10">Dhruv Jain</h1>
+        <p className="lg:text-xl">B.tech Student</p>
+        <p className="flex flex-row">Founder -&nbsp;<a href="https://www.instagram.com/web.landers/" className="text-teal-300">Weblanders</a></p>
+        
+        <p>Experience - MERN | DSA | Blockchain</p>
+      </div>
+     
+      <div data-aos="fade-left" className="hidden md:block shadow-sky-400 shadow-lg text-black w-full md:w-1/3 p-4">
+            <Card
+              imageSrc="/images/image1.jpg"
+              title={"Entrepreneurial Venture"}
+              description="It starts from the childhood when I used to see my father as my role model for my Entrepreneurial Journey, and it seems to be completed when I with my childhood friend founded a digital freelancing agency with the aim of merging artistry with technology. At Weblanders, we are not just creating websites; we are designing digital masterpieces that resonate with contemporary aesthetics and functionality."
+            />
+          </div>
+          
+
+    </div>
+    
+    </div>
+
+
     </header>
   );
 };

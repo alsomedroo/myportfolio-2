@@ -1,15 +1,7 @@
 const Card = ({ imageSrc, title, description }) => {
     return (
       <div className="bg-transparent rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-110 hover:shadow-xl ease-out duration-300">
-        {/* <div className="relative pb-56">
-          <Image
-            src={imageSrc}
-            alt={title}
-            layout="fill"
-            objectFit="cover" 
-            className="rounded-t-lg"
-          />
-        </div> */}
+        
         <div className="md:p-6 p-0">
           <h2 className="text-xl text-teal-400 font-bold mb-2">{title}</h2>
           <p className="text-white">{description} <p className="blinking-cursor text-teal-200">|</p></p>

@@ -61,7 +61,15 @@ const CardContainer = () => {
           s
         </span>
         </div>
+        
         <div className="flex flex-wrap -mx-4">
+        <div data-aos="fade-right" className="text-black  w-full md:w-1/3 p-4">
+            <a href='https://www.amanmithaiwala.com/'><Card
+              imageSrc="/droowallet.png"
+              title={"Web3wallet Key Generator"}
+              description=""
+            /></a>
+          </div>
           <div data-aos="fade-right" className="text-black  w-full md:w-1/3 p-4">
             <a href='https://www.amanmithaiwala.com/'><Card
               imageSrc="/logo.png"
